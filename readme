@@ -1,8 +1,0 @@
-<h3 align="center">Install Dependencies:</h3>
-<p>1. pip install fastapi </p>
-<p>2. pip install "uvicorn[standard]"</p>
-
-<h3 align="left">Run: </h3>
-<p align="left">python -m uvicorn main:app --reload
-</p>
-
