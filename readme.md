@@ -6,7 +6,7 @@
 python -m uvicorn main:app --reload
 
 ## Dokumentasi
-![Cloud Architecture - BudgetIN]()
+![Cloud Architecture - BudgetIN](https://github.com/BudgetInCapstone/CloudComputing/blob/main/c.png)
 
 URL : [https://capstone-project-387701.et.r.appspot.com](https://capstone-project-387701.et.r.appspot.com/register) 
 ### Register 
