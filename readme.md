@@ -17,16 +17,18 @@ URL : [https://capstone-project-387701.et.r.appspot.com](https://capstone-projec
 - Response Body :<br>
 		- Status 200 OK
 		 <pre>{
+		 "success": true,
 		 "message": "User registered successfully"
 		 }
      </pre>
 		- Status 400 Bad Request<br>
 		 <pre>{
-		 "message": "Email or username already in use"
+		 "message": "Email already in use"
 		 }
      </pre>
 		- Status 500 Internal Server Error
 		 <pre>{
+		 "success": false,
 		 "message": "Error registering user"
 		 }
      </pre>
@@ -50,14 +52,17 @@ URL : [https://capstone-project-387701.et.r.appspot.com](https://capstone-projec
 		 }</pre>
 		- Status 401 Unauthorized<br>
 		<pre>{
+		 "success":false,
 		 "message": "Invalid credentials"
 		 }</pre>
 		- Status 404 Not Found<br>
 		<pre>{
+		 "success":false,
 		 "message": "User not found"
 		 }</pre>
 		- Status 500 Internal Server Error
 		<pre>{
+		 "success":false,
 		 "message": "Error logging in"
 		 }</pre>
 
